@@ -43,7 +43,7 @@ with `MergeSort` in millisecond, respectively.
 
 So This can give us some intuitions about the temporal cost of different sorting 
 algorithms. To test them, we grow the input size exponentially, and result shows below.
-![comparison of 4 algorithms](comparison.tif)
+![comparison](https://user-images.githubusercontent.com/30022073/36461178-33960920-168a-11e8-9fce-ddb06bc3ebf9.jpg)
 
 It shows that for O(nlogn) algorithms, the `QuickSort` has the best performance. And 
 indeed, `InsertionSort` is the slowest O(n^2). `HeapSort` and `MergeSort` runs 
